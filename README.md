@@ -1,5 +1,6 @@
-# GPACalculator
+# GPA Calculator
 > A GPA Calculator made using Vanilla JS and Tailwind CSS.
+> 
 ![](demo.gif)
 
 ## Usage
