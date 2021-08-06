@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="public/styles/styles.css">
+    <script src="https://kit.fontawesome.com/ebf5f49d8c.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="bg-lilac appearance-none">
+    <div class="mt-6 mb-10">
+        <h1 class="font-bold text-center text-gray-600 text-4xl">4.0 GPA Calculator</h1>
+
+    </div>
+    <div class="flex-row h-full">
+        <div class="flex font-bold text-gray-600 justify-center text-xl m-3">
+            <div>
+                <h2 class="mr-2 -ml-4 px-3 py-2 pr-8 ">Grade</h2>
+            </div>
+            <div>
+                <h2 class="mr-2 -ml-2 px-2 py-2 pr-8">Credits</h2>
+            </div>
+        </div>
+        <div id="inputs">
+            <div id="inputfield1" name="inputfield" class="flex justify-center m-3">
+                <select name="grade" id="grade"
+                    class="block w-24 mr-2 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    <option value="WF">WF</option>
+                </select>
+                <select name="credit"
+                    class="block w-24 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="4">4.0</option>
+                    <option value="3">3.0</option>
+                    <option value="2">2.0</option>
+                    <option value="1">1.0</option>
+                    <option value="0">0.0</option>
+                </select>
+                <button name="delete"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2"><i
+                        class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+
+            <div id="inputfield2" name="inputfield" class="flex justify-center m-3">
+                <select name="grade" id="grade"
+                    class="block w-24 mr-2 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    <option value="WF">WF</option>
+                </select>
+                <select name="credit"
+                    class="block w-24 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="4">4.0</option>
+                    <option value="3">3.0</option>
+                    <option value="2">2.0</option>
+                    <option value="1">1.0</option>
+                    <option value="0">0.0</option>
+                </select>
+                <button name="delete"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2"><i
+                        class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+            <div id="inputfield3" name="inputfield" class="flex justify-center m-3">
+                <select name="grade" id="grade"
+                    class="block w-24 mr-2 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    <option value="WF">WF</option>
+                </select>
+                <select name="credit"
+                    class="block w-24 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="4">4.0</option>
+                    <option value="3">3.0</option>
+                    <option value="2">2.0</option>
+                    <option value="1">1.0</option>
+                    <option value="0">0.0</option>
+                </select>
+                <button name="delete"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2"><i
+                        class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+            <div id="inputfield4" name="inputfield" class="flex justify-center m-3">
+                <select name="grade" id="grade"
+                    class="block w-24 mr-2 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    <option value="WF">WF</option>
+                </select>
+                <select name="credit"
+                    class="block w-24 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="4">4.0</option>
+                    <option value="3">3.0</option>
+                    <option value="2">2.0</option>
+                    <option value="1">1.0</option>
+                    <option value="0">0.0</option>
+                </select>
+                <button name="delete" id="grade"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2"><i
+                        class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+            <div id="inputfield5" name="inputfield" class="flex justify-center m-3">
+                <select name="grade"
+                    class="block w-24 mr-2 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="A">A</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B">B</option>
+                    <option value="B-">B-</option>
+                    <option value="C+">C+</option>
+                    <option value="C">C</option>
+                    <option value="D">D</option>
+                    <option value="F">F</option>
+                    <option value="WF">WF</option>
+                </select>
+                <select name="credit"
+                    class="block w-24 bg-white border border-gray-400 hover:border-gray-500 px-4 py-2 pr-8 rounded shadow leading-tight focus:shadow-outline">
+                    <option value="4">4.0</option>
+                    <option value="3">3.0</option>
+                    <option value="2">2.0</option>
+                    <option value="1">1.0</option>
+                    <option value="0">0.0</option>
+                </select>
+                <button name="delete"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow ml-2"><i
+                        class="fas fa-trash-alt"></i>
+                </button>
+            </div>
+        </div>
+
+        <div class="flex justify-center">
+            <button type="submit" id="calculate"
+                class=" bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-5 border border-gray-400 rounded shadow ">
+                Calculate
+            </button>
+        </div>
+        <div class="flex justify-center mt-3">
+            <div>
+                <button id="add"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mx-2">
+                    <i class="fas fa-plus"></i>
+                </button>
+            </div>
+            <div>
+                <button id="refresh"
+                    class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow mx-2">
+                    <i class="fas fa-sync-alt"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <section class="font-bold bg-darklilac rounded-xl mb-10 mx-10 py-5 opacity-50 text-center mt-12">
+        <div class="pb-3">Your GPA is</div>
+        <div class="text-6xl font-mono" id="gpa">0.0</div>
+        <div class="pt-3" id="standing"></div>
+    </section>
+    <script src="script.js" async defer></script>
+</body>
+
+</html>
